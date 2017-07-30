@@ -1,0 +1,11 @@
+{
+  "title": "GitLocalize Help Center",
+  "plugins": [
+    "theme-faq",
+    "-fontsettings",
+    "-sharing"
+  ],
+  "structure": {
+    "readme": "introduction.md"
+  }
+}
