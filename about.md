@@ -27,5 +27,3 @@ GitLocalize parses your file into trackable chunks, automatically links the tran
 There is no need to remember what needs to be updated. You just need to look at the split-view editor to see which lines need updates.
 
 Thanks for taking the time to read about GitLocalize. Check back often, as we have more features lined up that are almost ready to go. We're very excited for these additions and think that you will be too!
-
-And of course, more features are lined up and will be shipped soon!
