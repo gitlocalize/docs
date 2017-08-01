@@ -18,12 +18,14 @@ After translating your file, simply send a review request to your team to discus
 
 With GitLocalize, your team will no longer dread localizing your project. Developers only need to look at the pull requests coming in. Let us take care of localization so you can focus on innovation.
 
-### Diff management on translations
+### Diff Management on Translations
 
 ![Diff management](/assets/img/about/diff_management.png)
 
-Since it automatically links a translation with its original sentence, it can show you which part needs to be translated when the original one is updated.
+GitLocalize parses your file into trackable chunks, automatically links the translation with the original language version, and tells you which sections still need to be translated. Even with frequent updates to your project, GitLocalize keeps localization stress-free.
 
-No need to manually check which parts are affected due to the original updated. You just need to look at GitLocalize editor and fill in the missing translations.
+There is no need to remember what needs to be updated. You just need to look at the split-view editor to see which lines need updates.
+
+Thanks for taking the time to read about GitLocalize. Check back often, as we have more features lined up that are almost ready to go. We're very excited for these additions and think that you will be too!
 
 And of course, more features are lined up and will be shipped soon!
