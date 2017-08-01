@@ -1,19 +1,19 @@
 # Getting Started
 
-Integrating with your repository to GitLocalize should take only a few minutes!
+Integrating your repository with GitLocalize only takes a few minutes!
 
 ## Signing up to GitLocalize
 
-First of all, go to [gitlocalize.com](https://gitlocalize.com) and sign up with your GitHub account.
+First, go to [gitlocalize.com](https://gitlocalize.com) and sign up with your GitHub account.
 
 ![GitLocalize](assets/img/getting_started/gitlocalize.png)
 
-Click "Sign up" button on the right top or "Sign up with GitHub" on the left. And authorize your account with our OAuth app.
+Click either the "Sign up" button at the top right or the "Get started with GitHub" button on the left. Next, you will be prompted to authorize your account with our OAuth app.
 
 
 ## Add Repository
 
-Once you sign up to GitLocalize, click `Add repository` button from your page.
+Once you sign up, click the `Add repository` button from your page.
 
 ![Profile](assets/img/getting_started/profile.png)
 
