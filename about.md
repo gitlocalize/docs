@@ -1,22 +1,22 @@
 # What is GitLocalize?
 
-[GitLocalize](https://gitlocalize.com) is a continuous localization platform for GitHub repositories and automates the process for developers. Because of the ever-changing nature of Internet-related product, keeping localizing them has been really challenging. GitLocalize solves this by connecting to your GitHub repository and naturally integrating with your development workflow in just a few clicks.
+[GitLocalize](https://gitlocalize.com) is a continuous and automated localization platform that simplifies the workflow process for developers. 
+
+Projects are always changing, and keeping them localized can be a daunting (and annoying) challenge. The makers of GitLocalize realized this and decided that nobody should have to suffer through this chore again. GitLocalize connects to your GitHub repository and seamlessly integrates with your development workflow in just a few clicks. 
 
 ## How It Works
 
-You can immediately get started with your GitHub account, choose your repository to integrate with GitLocalize and localize your files. Here are the key features of the platform:
+You can immediately get started with your GitHub account. All you have to do is choose your repository to integrate with GitLocalize and it will localize your files. Here are the key features of the platform:
 
-### GitHub based workflow
+### GitHub Based Workflow
 
 ![GitHub based workflow](/assets/img/about/flow.png)
 
-Once you integrate your repo with GitLocalize, it starts pulling all the localization related files into its platform and watching the changes.
+Once you integrate your repo with GitLocalize, it pulls the target files to its platform and makes them instantly translatable. It also begins to keep track of any changes between the original and translation files so you can update with ease.
 
-When you finish translating a file, you then make a review request and ask the team to review the changes, like what you do with a pull request.
+After translating your file, simply send a review request to your team to discuss the updates as you would normally do with a pull request. Once it is reviewed and approved, you can send a pull request back to the repository. Each user's contribution on GitLocalize becomes their commit on the repository. 
 
-After the review process, you can send a pull request back to your repo. It makes each contribution on GitLocalize each user's commit on the repository.
-
-With GitLocalize, your team no longer need to do anything extra to localize your project and developers only need to look at those pull request coming.
+With GitLocalize, your team will no longer dread localizing your project. Developers only need to look at the pull requests coming in. Let us take care of localization so you can focus on innovation.
 
 ### Diff management on translations
 
