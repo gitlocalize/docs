@@ -2,11 +2,11 @@
 
 [GitLocalize](https://gitlocalize.com) is a continuous and automated localization platform that simplifies the workflow process for developers. 
 
-Projects are always changing, and keeping them localized can be a daunting (and annoying) challenge. The makers of GitLocalize realized this and decided that there should be a way to streamline this. GitLocalize connects to your GitHub repository and seamlessly integrates with your development workflow in just a few clicks. 
+Projects are always changing, and keeping them localized can be a daunting (and annoying) challenge. We realized this and decided that there should be a way to streamline this. GitLocalize connects to your GitHub repository and seamlessly integrates with your development workflow in just a few clicks. 
 
 ## How It Works
 
-You can immediately get started with your GitHub account. All you have to do is choose your repository to integrate with GitLocalize and it will localize your files. Here are the key features of the platform:
+You can immediately get started with your GitHub account. All you have to do is choose your repository to integrate with GitLocalize and localization will become easier than ever before. Here are the key features of the platform:
 
 ### GitHub Based Workflow
 
