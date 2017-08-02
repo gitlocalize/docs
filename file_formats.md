@@ -2,9 +2,9 @@
 
 ## File formats
 
-#### Markdowon
+#### Markdown
 
-We support `Markdown` files in general. It can work with any static site generators including `Jekyll`, `gitbook`, `Hugo` and so on.
+We support `Markdown` files in general. GitLocalize can work with any static site generators including `Jekyll`, `gitbook`, `Hugo` and so on.
 
 #### HTML
 
@@ -12,8 +12,8 @@ Normal HTML format is also supported.
 
 #### YAML
 
-We support `Ruby on Rails` i18n format and also for any frameworks and environments.
+We support `Ruby on Rails` i18n format and any framework or environment.
 
 ## Request
 
-If you have a request for a file format, please let us know from [here](https://gitlocalize.com/inquiries/new)
+If you have a request for a file format, please let us know [here](https://gitlocalize.com/inquiries/new).
