@@ -17,33 +17,29 @@ Once you sign up, click the `Add repository` button from your page.
 
 ![Profile](assets/img/getting_started/profile.png)
 
-Fill in the form at `Add Repository` page to configure your repository environment.
+Fill in the form to configure your repository environment.
 
 ![Add Repository](assets/img/getting_started/add_repository.png)
 
-1. Select your repository that you want to localize from the list.
-2. Branch (Optional, default: master).
-3. Path of a directory which has files you want to localize.
-4. Path of a directory which GitLocalize generates translation files to.
-5. Language of the source file(s).
+1. Select your repository that you want to localize.
+2. Select your branch (default: master).
+3. Path of the directory that has the files you want to localize.
+4. Path of the directory where GitLocalize generates translation files.
+5. Language of the source files.
 6. Languages you want to localize to.
 
 ## Translate
 
-After an integration, it starts to fetch target file(s) to the platform so it would take some time that depends on the size of your repository.
+After integrating, GitLocalize pulls the target files to the platform. The amount of time this takes will depend on the size of your repository.
 
-Once finish fetching all the target file(s), you can start translating your files with the split view editor.
-
-It show which translation links to which original part and grays out a part which has not been translated.
+Once GitLocalize finishes pulling the files, you can start translating your files with the split-view editor. This editor links the translation to the original file line-for-line and highlights the parts that still need to be translated.
 
 ![Diff management](/assets/img/about/diff_management.png)
 
 ## Review
 
-After finish translating the file, `Create Review Request` button is shown up next to the status icon.
-
-Create a review request to notify team that you have finished translating it and start a discussion there.
+After translating the file, click the `Create Review Request` button next to the status icon. This button notifies your team that you are done and allows you to discuss the updates as you would normally do with a pull request.
 
 ## Pull Request
 
-Once your team is satisfied with your change, the language moderator can send a pull request back to the repository.
+Once your team is satisfied with your revisions, the language moderator can send a pull request back to the repository.
