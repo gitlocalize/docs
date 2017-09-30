@@ -35,3 +35,4 @@ Once you finish translating a file, `Create Review Request` button will be shown
 After the moderator finds your changes are goood to go, she will send a pull request to the repo. Check out the pull request to see if you get any feedbacks there.
 
 ![Pull Request](assets/img/how_to_contribute/pull_request.png)
+
