@@ -32,6 +32,8 @@ Now for the fun part! After selecting a file, simply click on a segment on the r
 
 Fill in your translation and submit it!
 
+![Translate](assets/img/how_to_contribute/translate_submit.PNG)
+
 ## 5. Conflict
 
 If a translated file is far behind from the original file, GitLocalize shows it as a conflict status. In this case, click each segment and link to its parent segment.
