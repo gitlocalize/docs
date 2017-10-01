@@ -1,6 +1,6 @@
 # How to Contribute to Projects
 
-Want to contribute to projects on GitLocalize but don't know how to? Follow these simple steps and you'll be contributing in no time! 
+Do you want to contribute to projects on GitLocalize, but you don't know how to? Follow these simple steps and you'll be contributing in no time! 
 
 ## 1. Find a Project
 
@@ -36,15 +36,19 @@ Fill in your translation and submit it!
 
 ## 5. Conflict
 
-If a translated file is far behind from the original file, GitLocalize shows it as a conflict status. In this case, click each segment and link to its parent segment.
+If a translated file is far outdated when compared to the original file, some segments may not have a counterpart. GitLocalize will show this as a conflict. 
+
+When this happens, you'll have two options: you can link the translation segment on the left to the original one on the right, or you can delete the translation segment.
 
 ![Conflict](assets/img/how_to_contribute/conflict.png)
 
 ## 6. Review Request & Pull Request
 
-Once you finish translating a file, `Create Review Request` button will be shown up at the top. Click it to create a review request to notify your team that you have finished translating the file and start a discussion.
+After you finish translating a file, the `Create Review Request` button will show up at the top of the page. Click it to create a review request. This will notify your team that you're done translating and will start a discussion about your changes. 
 
-After the moderator finds your changes are goood to go, she will send a pull request to the repo. Check out the pull request to see if you get any feedbacks there.
+You can check out the 'Conversation' tab under the 'Review Requests' section to see if you get any feedback on your work.
+
+Once the moderator finds your translation is good to go, he or she will send a pull request to the repo. Congratulations! You've successfully made a contribution to a project!
 
 ![Pull Request](assets/img/how_to_contribute/pull_request.png)
 
