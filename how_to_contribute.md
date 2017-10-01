@@ -1,6 +1,6 @@
 # How to Contribute to Projects
 
-Do you want to contribute to projects on GitLocalize, but you don't know how to? Follow these simple steps and you'll be contributing in no time! 
+Do you want to contribute to projects on GitLocalize, but you don't know how to? Follow these simple steps, and you'll be contributing in no time! 
 
 ## 1. Find a Project
 
