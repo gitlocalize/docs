@@ -46,6 +46,8 @@ When this happens, you'll have two options: you can link the translation segment
 
 After you finish translating a file, the `Create Review Request` button will appear at the top of the page. Click it to create a review request. This will notify your team that you're done translating and will start a discussion about your changes. 
 
+![Review Request](assets/img/how_to_contribute/review_request.png)
+
 You can check out the 'Conversation' tab under the 'Review Requests' section to see if you received any feedback on your work.
 
 Once the moderator thinks your translation is good to go, he or she will send a pull request to the repo. Congratulations! You've successfully made a contribution to a project!
