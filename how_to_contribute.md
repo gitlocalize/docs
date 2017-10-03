@@ -1,37 +1,54 @@
 # How to Contribute to Projects
 
-Here to describe how to contribute projects on GitLocalize.
+Do you want to contribute to projects on GitLocalize, but you don't know how to? Follow these simple steps, and you'll be contributing in no time! 
 
-## 1. Find a project
+## 1. Find a Project
 
-If you don't have any project to contribute, let's search by keywords from the top search bar or check out the home page to see [popular projects](https://gitlocalize.com).
+Of course, in order to contribute to a project, first you must find a project to contribute to! 
+
+If you don't have a project of your own, try using the top search bar to filter projects by keywords related to your interests. You can also check out the home page to see [popular projects](https://gitlocalize.com).
 
 ![Search Bar](assets/img/how_to_contribute/search_bar.png)
 
-## 2. Choose a language
+## 2. Choose a Language
 
-Once you navigate to a project page, you'll see a list of languages to translate. Choose a language you speak and want to contribute to.
+Once you've found a project you'd like to work on, navigate to its page. 
+
+Here, you'll see a list of active languages to translate the project to. The middle column shows the moderator of each translation. The rightmost column tells you how much of the project has been translated to that language already.
+
+Simply choose the language that you'd like to help with translating the project to. Don't see your language? Add it using the `Add language` button!
 
 ![Choose a language](assets/img/how_to_contribute/choose_language.png)
 
-## 3. Navigate to a file and translate
+## 3. Navigate to a File
 
-Navigate to a file that you want to contribute and haven't been finished translating yet.
-
-Click a segment from the right section and submit your translation.
+Once you've selected your language, navigate to the file that you'd like to translate. Similar to the last step, the rightmost column tells you how much of each file has been translated already. 
 
 ![Navigate to a file](assets/img/how_to_contribute/navigate.png)
 
-## 4. Conflict
+## 4. Translate
 
-If a translated file is far behind from the original file, GitLocalize shows it as a conflict status. In this case, click each segment and link to its parent segment.
+Now for the fun part! After selecting a file, simply click on a segment on the right side (translation side) that corresponds with the left side (original language side). 
+
+Fill in your translation on the right side and submit it!
+
+![Translate](assets/img/how_to_contribute/translate_submit.PNG)
+
+## 5. Resolve a Conflict
+
+If a translated file is very outdated when compared to the original file, some segments may not have a linked counterpart. GitLocalize will show this as a conflict. 
+
+When this happens, you'll have two options: you can link the translation segment on the right to the original on the left, or you can delete the translation segment.
 
 ![Conflict](assets/img/how_to_contribute/conflict.png)
 
-## 5. Review Request & Pull Request
+## 6. Review Request & Pull Request
 
-Once you finish translating a file, `Create Review Request` button will be shown up at the top. Click it to create a review request to notify your team that you have finished translating the file and start a discussion.
+After you finish translating a file, the `Create Review Request` button will appear at the top of the page. Click it to create a review request. This will notify your team that you're done translating and will start a discussion about your changes. 
 
-After the moderator finds your changes are goood to go, she will send a pull request to the repo. Check out the pull request to see if you get any feedbacks there.
+You can check out the 'Conversation' tab under the 'Review Requests' section to see if you received any feedback on your work.
+
+Once the moderator thinks your translation is good to go, he or she will send a pull request to the repo. Congratulations! You've successfully made a contribution to a project!
 
 ![Pull Request](assets/img/how_to_contribute/pull_request.png)
+
