@@ -1,0 +1,25 @@
+{
+  "private": true,	
+  "name": "docs.gitlocalize.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gitbook serve",
+    "build": "gitbook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitlocalize/docs.gitlocalize.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitlocalize/docs.gitlocalize.com/issues"
+  },
+  "homepage": "https://github.com/gitlocalize/docs.gitlocalize.com#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
