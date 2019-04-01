@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - "11"
+
+cache: npm
+
+script:
+  - npm run build
+
+deploy:
+  provider: pages
+  fqdn: docs.gitlocalize.com
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: public
+  on:
+    branch: master
