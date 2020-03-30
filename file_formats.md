@@ -6,6 +6,10 @@
 
 We support `Markdown` files in general. GitLocalize can work with any static site generators including `Jekyll`, `gitbook`, `Hugo` and so on.
 
+#### PO
+
+Fully supported (both .po and .pot)
+
 #### JSON
 
 Fully supported.
