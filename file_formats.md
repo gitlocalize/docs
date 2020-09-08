@@ -26,6 +26,10 @@ We support `Ruby on Rails` i18n format and any framework or environment.
 
 Fully supported.
 
+#### Jupyter Notebooks
+
+Markdown and code cells can be translated in GitLocalize.
+
 ## Request
 
 If you have a request for a file format, please let us know [here](https://gitlocalize.com/inquiries/new).
