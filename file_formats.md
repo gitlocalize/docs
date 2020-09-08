@@ -28,7 +28,7 @@ Fully supported.
 
 #### Jupyter Notebooks
 
-Markdown and code cells can be translated in GitLocalize.
+`Markdown` and `code` cells can be translated in GitLocalize.
 
 ## Request
 
