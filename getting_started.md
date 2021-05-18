@@ -19,7 +19,7 @@ Once you sign up, click the `Add repository` button on your Projects page.
 
 Fill in the form to configure your repository environment.
 
-![Add Repository](assets/img/getting_started/add_repository.png)
+![Add Project](assets/img/getting_started/add_repository.png)
 
 1. Select the repository that you want to localize.
 2. Select the branch (Optional field. GitLocalize will use master by default).
