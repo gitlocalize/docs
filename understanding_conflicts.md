@@ -11,22 +11,22 @@ If this matching fails, it means GitLocalize couldn't find the matching counterp
 1. The structure of the translation file does not match that of the source file (e.g. translation is outdated):
 ![Conflict](/assets/img/understanding_conflicts/conflicts.png)
 
-2. The file structure is the same, however some strings or parts of texts are formatted in a different way (header levels, lists, bold/italic etc.)
+2. The file structure is the same, however some strings or parts of text are formatted in a different way (header levels, lists, bold/italic etc.)
 
 3. In Jupyter Notebooks segment IDs or metadata do not match.
 
 ## Resolving Conflicts
 
-Before you can translate a file that is in the conflict state, you should resolve conflicts by manually = linking highlighted (conflicting) segments on the right with corresponding segments on the left:
+Before translating a file with conflicts, you need to manually link highlighted (conflicting) segments on the right with corresponding segments on the left:
 
 1. Click on a highlighted (unliked) segment
 2. Press [Link to a Segment]
 3. Select a segment in the left pane you want to link with
 ![Resolving Conflicts](/assets/img/understanding_conflicts/resolving_conflicts.gif)
 
-This should only be done when you are sure that translations are correct and are not outdated. Segments that contain outdated translations can be deleted.
+Ensure that the translation is correct and not outdated before doing this. Segments that contain outdated translations can be deleted by pressing [Delete this translation].
 
-Once all conflicting segments are linked (or deleted), you should be able to translate the remaining parts of the file.
+Once all conflicting segments are linked (or deleted), you should be able to translate the remaining portions of the file.
 
 
 
