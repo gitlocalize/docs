@@ -9,3 +9,4 @@
 * [Understanding Roles](understanding_roles.md)
 * [I Want to Use GitLocalize For a Private Repository. Will My Project Be Private?](private_project_visibility.md)
 * [Understanding Conflicts](understanding_conflicts.md)
+* [How do I Configure Project Paths Correctly?](project_paths.md)
