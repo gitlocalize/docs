@@ -8,3 +8,4 @@
 * [Can I add a private repository?](private_repo.md)
 * [Understanding Roles](understanding_roles.md)
 * [I want to use GitLocalize for a private repository. Will my project be private?](private_project_visibility.md)
+* [Understanding Conflicts](understanding_conflicts.md)
