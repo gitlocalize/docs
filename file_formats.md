@@ -6,7 +6,7 @@
 
 We support `Markdown` files in general. GitLocalize can work with any static site generators including `Jekyll`, `gitbook`, `Hugo` and so on.
 
-#### PO
+#### Gettext .po
 
 Fully supported (both .po and .pot)
 
@@ -30,6 +30,6 @@ Fully supported.
 
 `Markdown` and `code` cells can be translated in GitLocalize.
 
-## Request
+## Didn't find your format on the list?
 
 If you have a request for a file format, please let us know [here](https://gitlocalize.com/inquiries/new).
