@@ -5,7 +5,7 @@ Project Paths are used to show GitLocalize where to look for translatable files 
 
 ## Default Configuation for the Project Paths
 
-The default paths offered when creating a project look as follows:
+When creating a project, default paths look like this:
 
 *Source Path:*
 
@@ -26,7 +26,7 @@ GitLocalize will additionally look for existing translations in the same languag
 
 ## Custom Project Paths
 
-To make GitLocalize look for translatable files in specific locations, you can specify one or more custom paths.
+If you want GitLocalize to look for translatable files in specific locations, you can specify one or more custom paths.
 
 ### Directory-Based Paths
 
