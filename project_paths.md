@@ -30,7 +30,7 @@ If you want GitLocalize to look for translatable files in specific locations, yo
 
 ### Directory-Based Paths
 
-_Example:_
+Example:
 
 *Source Path:*
 ```
@@ -47,7 +47,7 @@ This configuration will sync translatable files from `/src/site/content/en`, Kor
 
 ### File-Based Paths
 
-_Example:_
+Example:
 
 *Source Path:*
 
@@ -63,7 +63,7 @@ pages/translations/%lang%/LC_MESSAGES/messages.po
 
 ### Mixed-Type Paths
 
-_Example:_
+Example:
 
 *Source Path:*
 ```
