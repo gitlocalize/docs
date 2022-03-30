@@ -47,4 +47,4 @@ With this configuration GitLocalize will look for translatable files in `/src/si
 # Configuring Custom Language Codes
 
 You can specify custom language codes for each project language when creating a project or later in the Manage Languages section. Language codes will affect the %lang% placeholder in the output paths (location where translation files will be created).
-![Project Paths](/assets/img/project_paths/project_paths.png)
+![Project Paths](/assets/img/project_paths/project_paths.gif)
