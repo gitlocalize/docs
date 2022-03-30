@@ -43,7 +43,7 @@ Example:
 [repo_name]/src/site/content/translations-%lang%
 ```
 
-This configuration will sync translatable files from `/src/site/content/en`, Korean translations from `/src/site/content/translations-ko`, German translations from `/src/site/content/translations-de` etc. Output translations will be stored in the same language locations (`/src/site/content/translations-ko`,  `/src/site/content/translations-de` etc.)
+This configuration will sync translatable files from `/src/site/content/en`, existing Korean translations from `/src/site/content/translations-ko`, German translations from `/src/site/content/translations-de` etc. Output translations will be stored in the same language locations (`/src/site/content/translations-ko`,  `/src/site/content/translations-de` etc.)
 
 ### File-Based Paths
 
@@ -76,7 +76,7 @@ pages/content/amp-dev/documentation/guides-and-tutorials
 %file_name%@%lang%.%file_ext%
 ```
 
-This configuration will sync source files from the `guides-and-tutorials` directory, while output translation files will be created in the same directory with a language code in the filename (e.g. German translation for the file `a4a_spec.md` will be created in the same `guides-and-tutorials` directory under the `a4a_spec@de.md` filename).
+This configuration will sync source files from the `guides-and-tutorials` directory; existing translations will be synced from, and output translation files will be created in the same directory with a language code in the filename (e.g. German translation for the file `a4a_spec.md` will be created in the same `guides-and-tutorials` directory under the `a4a_spec@de.md` filename).
 
 ## Configuring Custom Language Codes
 
