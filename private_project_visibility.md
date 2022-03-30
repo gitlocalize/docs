@@ -1,8 +1,8 @@
-# I want to use GitLocalize for a private repository. Will the project be private?
+# I want to use GitLocalize for a private repository. Will my project be private?
 
 If you are using GitLocalize for a private repository, your GitLocalize project will also be private.
 Users that are not added to the team will see a 404 error when trying to access the private project:
-[!404](assets/img/understanding_roles/404.png)
+[!404](/assets/img/private_project_visibility/404.png)
 
 For this reason, you will need to make sure that each translator has access to your project by adding them to the team. See [Understanding Roles](/understanding_roles.html) for more information about roles and team members.
 
