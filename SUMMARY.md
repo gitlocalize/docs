@@ -7,3 +7,4 @@
 * [Why does my project take forever to sync?](project_takes_forever_to_sync.md)
 * [Can I add a private repository?](private_repo.md)
 * [Understanding Roles](understanding_roles.md)
+* [I want to set up GitLocalize for a private repository. Will the project be private?](private_project_visibility.md)
