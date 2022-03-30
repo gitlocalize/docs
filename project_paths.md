@@ -20,8 +20,7 @@ The default paths offered when creating a project look as follows:
 ```
 ...where `%lang` is the placeholder for the target language code.
 
-With this configuration GitLocalize will scan all folders starting from the root folder
-(including subfolders) to look for translatable files. Output translation files will be created in the respective folders for each target language. For example, Korean translations will be stored under `/ko/...`, German translations will be stored under `/de/...` etc.
+This configuration will sync translatable files from the root folder (including subfolders). Output translation files will be created in the respective language folders for each target language. For example, Korean translations will be stored under `/ko/...`, German translations will be stored under `/de/...` etc.
 
 GitLocalize will additionally look for existing translations in the same language locations (will scan `/ko/...` for Korean translations, `/de/...` for German etc.)
 
@@ -44,7 +43,7 @@ _Example:_
 [repo_name]/src/site/content/translations-%lang%
 ```
 
-With this configuration GitLocalize will look for translatable files under `/src/site/content/en`, Korean translations under `/src/site/content/translations-ko`, German translations under `/src/site/content/translations-de` etc. Output translations will be created in the same locations (`/src/site/content/translations-ko`,  `/src/site/content/translations-de` etc.)
+This configuration will sync translatable files from `/src/site/content/en`, Korean translations from `/src/site/content/translations-ko`, German translations from `/src/site/content/translations-de` etc. Output translations will be stored in the same language locations (`/src/site/content/translations-ko`,  `/src/site/content/translations-de` etc.)
 
 ### File-Based Paths
 
