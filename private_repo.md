@@ -1,4 +1,4 @@
-# Can I add a private repository to GitLocalize?
+# Can I Add a Private Repository?
 
 You should be able to add both public and private repositories on GitLocalize. If, however, the private repository you wish to add is part of a GitHub organization, you will need to have the Owner role in that organization in order to add it.
 

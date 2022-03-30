@@ -1,4 +1,4 @@
-# Why does my project take forever to sync?
+# Why Does My Project Take Forever to Sync?
 
 Sometimes you'll see that there is a spinner next to the name of your project:
 
