@@ -1,6 +1,6 @@
 # How do I Configure Project Paths Correctly?
 
-To make sure GitLocalize knows where to look for translatable files and where to put translations, you should configure Project Paths correctly.
+Project Paths are used to show GitLocalize where to look for translatable files and where to put translations.
 
 
 ## Default Configuation for the Project Paths
