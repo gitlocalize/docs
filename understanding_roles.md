@@ -35,7 +35,7 @@ Translators can only add or update translations and create review requests (send
 
 These roles are reserved for people added to your team by a third-party vendor (e.g. language service provider). These roles are functionally the same as regular Admin and Translator roles, but can be used to differentiate between your team and external vendor's people.
 
-> ℹ️ GitLocalize is operated by [Alconost](https:/alconost.com) - a Multiple Language Vendor. Should you wish to use professional translations in your project, please [reach out to us](https://gitlocalize.com/inquiries/new) for a quote or consultation.
+> ℹ️ GitLocalize is operated by [Alconost](https:/alconost.com) - a Multi-Language Vendor. Should you wish to use professional translations in your project, please [reach out to us](https://gitlocalize.com/inquiries/new) for a quote or consultation.
 
 ## Private vs. Public projects
 
