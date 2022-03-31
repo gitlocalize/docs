@@ -31,6 +31,12 @@ Language Moderators are added per language, so if you want a user to be the Lang
 
 Translators can only add or update translations and create review requests (send translations to Language Moderators for review). They will not be able to send pull requests to GitHub.
 
+### 5. `Translator (Vendor)` and `Admin (Vendor)`
+
+These roles are reserved for people added to your team by a third-party vendor (e.g. language service provider). These roles are functionally the same as regular Admin and Translator roles, but can be used to differentiate between your team and external vendor's people.
+
+> ℹ️ GitLocalize is operated by [Alconost](https:/alconost.com) - a Multiple Language Vendor. Should you wish to use professional translations in your project, please [reach out to us](https://gitlocalize.com/inquiries/new) for a quote or consultation.
+
 ## Private vs. Public projects
 
 Roles work the same for both private and public repositories. If, however, you are using GitLocalize for a private repository, your GitLocalize project will also be private. For this reason, you will need to make sure that each translator has access to your project by adding them to the team.
