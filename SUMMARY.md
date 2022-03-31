@@ -10,3 +10,4 @@
 * [I Want to Use GitLocalize For a Private Repository. Will My Project Be Private?](private_project_visibility.md)
 * [Understanding Conflicts](understanding_conflicts.md)
 * [How do I Configure Project Paths Correctly?](project_paths.md)
+* [I have Translated a Document. When Will My Translation Go Live on GitHub?](translations_on_github.md)
