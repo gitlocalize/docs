@@ -31,7 +31,7 @@ Language Moderators are added per language, so if you want a user to be the Lang
 
 Translators can only add or update translations and create review requests (send translations to Language Moderators for review). They will not be able to send pull requests to GitHub.
 
-### 5. `Translator (Vendor)` and `Admin (Vendor)`
+### 5. Translator (Vendor) and Admin (Vendor)
 
 These roles are reserved for people added to your team by a third-party vendor (e.g. language service provider). These roles are functionally the same as regular Admin and Translator roles, but can be used to differentiate between your team and external vendor's people.
 
