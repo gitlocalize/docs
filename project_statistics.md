@@ -13,5 +13,5 @@ To display project statistics simply click on the percentage figure in the file 
 
 ![Project Statistics for a single file](/assets/img/project_statistics/project_stats_file.gif)
 
-Extended project statistics are available on Enterprise plans (translation volume and dynamics by language, user, month etc.)
+> ℹ️ Extended project statistics are available on Enterprise plans (translation volume and dynamics by language, user, month etc.)
 Please [contact us](https://gitlocalize.com/inquiries/new) for more information about our Enterprise plans.
