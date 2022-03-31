@@ -13,3 +13,4 @@
 * [I have Translated a Document. When Will My Translation Go Live on GitHub?](translations_on_github.md)
 * [Where Can I See Project Statistics?](project_statistics.md)
 * [Can I Use a Project Glossary?](glossaries.md)
+* [Can I Specify Custom Language Codes for the Project Languages?](custom_language_codes.md)

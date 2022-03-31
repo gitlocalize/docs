@@ -80,5 +80,5 @@ This configuration will sync source files from the `guides-and-tutorials` direct
 
 ## Configuring Custom Language Codes
 
-Custom language codes can be specified for each project language when creating a project or later in the Manage Languages section. Language codes will replace the `%lang%` placeholder in the output paths (locations where translation files will be created).
+Custom language codes can be specified for each project language when creating a project or later in the Manage Languages section (available to Admins and Owner). Language codes will replace the `%lang%` placeholder in the output paths (locations where translation files will be created).
 ![Project Paths](/assets/img/project_paths/project_paths.gif)
