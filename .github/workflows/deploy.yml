@@ -24,7 +24,6 @@ jobs:
           node-version: 11
           cache: 'npm'
       - uses: actions/configure-pages@v2
-        id: pages 
       - run: npm ci
       - run: npm run build
       - uses: actions/upload-pages-artifact@v1
