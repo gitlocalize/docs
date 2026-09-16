@@ -70,7 +70,8 @@
               "api-reference/repositories/list",
               "api-reference/repositories/get",
               "api-reference/repositories/languages"
-            ]
+            ],
+            "tag": "Preview"
           }
         ]
       }
@@ -104,6 +105,7 @@
   },
   "footer": {
     "socials": {
+      "x": "https://x.com/gitlocalize",
       "github": "https://github.com/gitlocalize",
       "website": "https://gitlocalize.com"
     },
@@ -112,7 +114,7 @@
         "header": "Product",
         "items": [
           {
-            "label": "Pricing & Enterprise",
+            "label": "Enterprise",
             "href": "https://gitlocalize.com/inquiries/new"
           },
           {
@@ -127,10 +129,6 @@
           {
             "label": "Contact us",
             "href": "https://gitlocalize.com/inquiries/new"
-          },
-          {
-            "label": "Community chat",
-            "href": "https://app.gitter.im/#/room/#gitlocalize:gitter.im"
           },
           {
             "label": "Discussions",
