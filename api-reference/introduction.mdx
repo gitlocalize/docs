@@ -1,0 +1,67 @@
+---
+title: "Introduction"
+description: "Authentication, pagination, and the endpoints exposed by the GitLocalize API."
+---
+
+The GitLocalize API is a JSON over HTTPS API. It exposes the repositories connected to an account
+and the translation progress of each target language.
+
+<Card title="Base URL" icon="server">
+  `https://api.gitlocalize.com`
+</Card>
+
+## Authentication
+
+Every endpoint requires an **API key**. Create one under
+[API keys](https://gitlocalize.com/settings/api_keys) in your GitLocalize settings, then send it as a
+bearer token in the `Authorization` header:
+
+<CodeGroup>
+```bash cURL
+curl https://api.gitlocalize.com/v1/repositories \
+  -H "Authorization: Bearer $GITLOCALIZE_API_KEY"
+```
+
+```js Node.js
+const res = await fetch("https://api.gitlocalize.com/v1/repositories", {
+  headers: { Authorization: `Bearer ${process.env.GITLOCALIZE_API_KEY}` },
+});
+const repositories = await res.json();
+```
+
+```python Python
+import os, requests
+
+res = requests.get(
+    "https://api.gitlocalize.com/v1/repositories",
+    headers={"Authorization": f"Bearer {os.environ['GITLOCALIZE_API_KEY']}"},
+)
+repositories = res.json()
+```
+</CodeGroup>
+
+<Warning>
+  An API key carries the access of the account that created it. Keep it in an environment variable or
+  a secret store — never commit it to a repository or ship it in client-side code.
+</Warning>
+
+## Pagination
+
+[List repositories](/api-reference/repositories/list) is cursor-paginated by repository id.
+Pass `limit` to set the page size (up to `1000`), and `after` to continue from where the previous
+page ended — set it to the `id` of the last repository you received. Results are ordered by `id`.
+
+```bash
+# first page
+curl "https://api.gitlocalize.com/v1/repositories?limit=100" \
+  -H "Authorization: Bearer $GITLOCALIZE_API_KEY"
+
+# next page, continuing after the last id from the previous response
+curl "https://api.gitlocalize.com/v1/repositories?limit=100&after=4242" \
+  -H "Authorization: Bearer $GITLOCALIZE_API_KEY"
+```
+
+<Note>
+  Repository ids are 64-bit integers, so they may be returned as strings. Use a 64-bit safe type in
+  languages where the default number type can't hold them — JavaScript included.
+</Note>

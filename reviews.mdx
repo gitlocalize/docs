@@ -1,0 +1,40 @@
+---
+title: "Reviews and pull requests"
+description: "The path a finished translation takes from review request to merged pull request."
+---
+
+Translations reach the repository through review, not directly. A finished translation becomes a
+**review request**; an approved review request becomes a **pull request**; merging that pull request
+puts the translation live.
+
+This is why the [role](/roles) a person holds matters: Translators can create review requests
+but not pull requests.
+
+## Review requests
+
+Once a file has been translated, **Create Review Request** appears at the top of the editor. Creating
+one notifies the team and opens a discussion on the change.
+
+<Frame>
+  <img src="/images/contribute-review-request.png" alt="Creating a review request" />
+</Frame>
+
+Feedback appears under the **Conversation** tab in the **Review Requests** section. Language
+Moderators and Admins can edit a translation while it is awaiting review.
+
+## Pull requests
+
+When a moderator approves the work, they open a pull request against the repository. Each
+contributor's work is preserved as their own commit, so authorship survives the round trip.
+
+<Frame>
+  <img src="/images/contribute-pull-request.png" alt="The pull request created from a review request" />
+</Frame>
+
+The pull request is an ordinary GitHub pull request, reviewed and merged like any other. The
+translation goes live when it is merged — GitLocalize does not merge it for you.
+
+<Note>
+  Only Language Moderators and Admins can open pull requests, and a Language Moderator only for the
+  language they moderate.
+</Note>
