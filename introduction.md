@@ -1,1 +1,0 @@
-On this page, we are collecting mini guides and answers to the most frequently asked questions. If you couldn't find an answer to your question, or experience any issues using GitLocalize, feel free to reach out to us through our [contact form](https://gitlocalize.com/inquiries/new) or create an issue in our [issue tracking repo](http://github.com/gitlocalize/feedback/issues).

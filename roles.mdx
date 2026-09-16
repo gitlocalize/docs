@@ -1,0 +1,76 @@
+---
+title: "Roles and notifications"
+description: "What each team role can do, how members are added, and which events generate email."
+---
+
+Roles determine what a person can do in a repository. They are assigned under the **Team** tab, and
+they are the same for public and private repositories — visibility only affects who can see the
+repository at all.
+
+## Permissions
+
+| | Translate | Create review requests | Edit translations under review | Open pull requests | Manage the team |
+| --- | :-: | :-: | :-: | :-: | :-: |
+| **Owner** | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **Admin** | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **Language Moderator** | ✓ | ✓ | ✓ | Own language only | — |
+| **Translator** | ✓ | ✓ | — | — | — |
+
+### Owner
+
+Assigned automatically to the person who connected the repository.
+
+### Admin
+
+Full control short of ownership: manage the team, create and close review requests, edit translations
+awaiting review, and open pull requests.
+
+### Language Moderator
+
+Reviews translations for one language. Can edit translations awaiting review and open pull requests,
+but only for the language they moderate.
+
+Moderators are assigned per language. Someone moderating three languages is added three times, once
+for each.
+
+### Translator
+
+Adds and updates translations, and creates review requests. Cannot open pull requests — their work
+reaches GitHub through a moderator.
+
+### Vendor roles
+
+**Translator (Vendor)** and **Admin (Vendor)** are functionally identical to the regular Translator
+and Admin roles. They exist to distinguish people supplied by a third-party language service provider
+from your own team.
+
+<Info>
+  GitLocalize is operated by [Alconost](https://alconost.com), a multi-language vendor. To have
+  translation done professionally rather than in-house or by a community,
+  [get in touch](https://gitlocalize.com/inquiries/new).
+</Info>
+
+## Adding members
+
+Type a person's GitHub handle, select a role, and click **Add**.
+
+<Frame>
+  <img src="/images/adding-team-members.png" alt="Adding a user to the team" />
+</Frame>
+
+<Note>
+  A handle that doesn't autocomplete belongs to someone without a GitLocalize account. They need to
+  sign in to GitLocalize once with their GitHub account before they can be added.
+</Note>
+
+For a private repository this step is mandatory — people who aren't on the team cannot see the
+repository at all. See [Visibility](/visibility).
+
+## Notifications
+
+Notifications follow roles; there is nothing to configure.
+
+| Event | Who is notified |
+| --- | --- |
+| Source content is updated | The translators who translated that content |
+| Translations are added or updated | The Language Moderator for that language |

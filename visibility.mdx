@@ -1,0 +1,32 @@
+---
+title: "Visibility"
+description: "How a repository's visibility on GitHub determines who can see and contribute to it on GitLocalize."
+---
+
+A repository on GitLocalize keeps the visibility it has on GitHub. This is not configurable
+separately.
+
+| On GitHub | On GitLocalize | Who can contribute |
+| --- | --- | --- |
+| Private | Private | Team members only |
+| Public | Public | Anyone |
+
+## Private repositories
+
+Someone who is not on the team gets a 404 — the repository does not appear to exist:
+
+<Frame>
+  <img src="/images/private-repository-404.png" alt="A 404 error shown to a user without access" />
+</Frame>
+
+There is no request-access flow, so [adding translators to the team](/roles) is a prerequisite
+rather than a convenience. Nobody can find their way to a private repository on their own.
+
+## Public repositories
+
+Anyone can open a public repository and translate in it without being on the team, which is what
+makes crowdsourced translation possible.
+
+Roles still govern what those contributors can do. Without an Admin or Moderator role they can create
+review requests but not pull requests, so community contributions are reviewed before reaching the
+repository. See [Reviews and pull requests](/reviews).

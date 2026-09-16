@@ -1,0 +1,24 @@
+---
+title: "File formats"
+description: "The file formats GitLocalize can parse and make translatable."
+---
+
+GitLocalize makes these formats translatable. Markdown, Jupyter Notebook and several others are
+parsed into [segments](/how-it-works#segments); the rest are translated key by key.
+
+| Format | Notes |
+| --- | --- |
+| Markdown | Works with any static site generator, including Jekyll, GitBook and Hugo |
+| Gettext | Both `.po` and `.pot` |
+| JSON | Fully supported |
+| HTML | Fully supported |
+| YAML | Includes the Ruby on Rails i18n format, and any other framework |
+| Localizable strings (iOS) | Fully supported |
+| Jupyter Notebook | Markdown and code cells are translatable |
+
+Which files GitLocalize looks at is determined by the [paths](/paths) configured for the
+repository, not by format alone.
+
+<Note>
+  If you need a format that isn't listed, [let us know](https://gitlocalize.com/inquiries/new).
+</Note>

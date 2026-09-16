@@ -1,0 +1,56 @@
+---
+title: "Quickstart"
+description: "Connect a GitHub repository and take a translation through to a pull request."
+---
+
+<Steps>
+  <Step title="Sign up with GitHub">
+    Sign up at [gitlocalize.com](https://gitlocalize.com) and authorize the GitLocalize GitHub app.
+
+    <Frame>
+      <img src="/images/signup-home.png" alt="The GitLocalize home page" />
+    </Frame>
+  </Step>
+
+  <Step title="Connect a repository">
+    Click **Add repository**, then choose the repository, its source and target paths, and its
+    languages.
+
+    <Frame>
+      <img src="/images/repositories-list.png" alt="The Repositories page with the Add repository button" />
+    </Frame>
+
+    Each field is described in [Repositories](/repositories); the path syntax
+    in [Paths and languages](/paths).
+  </Step>
+
+  <Step title="Wait for the first sync">
+    GitLocalize pulls the matching files and parses them into segments. On a large repository this
+    takes hours rather than minutes — see [Syncing](/syncing).
+  </Step>
+
+  <Step title="Translate a file">
+    Open a file in the editor. Source and translation sit side by side, and untranslated segments are
+    highlighted.
+
+    <Frame>
+      <img src="/images/diff-management.png" alt="The split-view editor" />
+    </Frame>
+  </Step>
+
+  <Step title="Send it for review">
+    **Create Review Request** sends the file to a Language Moderator. Once approved it becomes a pull
+    request against your repository — see [Reviews and pull requests](/reviews).
+  </Step>
+</Steps>
+
+## Next
+
+<CardGroup cols={2}>
+  <Card title="How it works" icon="circle-nodes" href="/how-it-works">
+    Segments, linking, and why translations stay in step with the source.
+  </Card>
+  <Card title="Roles and notifications" icon="users" href="/roles">
+    Add translators and moderators, and see what each can do.
+  </Card>
+</CardGroup>

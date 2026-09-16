@@ -1,0 +1,271 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "GitLocalize",
+  "description": "Guides, answers to frequently asked questions, and the API reference for GitLocalize — continuous localization for your GitHub repository.",
+  "colors": {
+    "primary": "#193b70",
+    "light": "#9abcf2",
+    "dark": "#0f274a"
+  },
+  "favicon": "/favicon.ico",
+  "logo": {
+    "light": "/images/logo.png",
+    "dark": "/images/logo-dark.png",
+    "href": "https://gitlocalize.com"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get started",
+            "pages": [
+              "index",
+              "how-it-works",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Set up",
+            "pages": [
+              "repositories",
+              "paths",
+              "file-formats",
+              "syncing"
+            ]
+          },
+          {
+            "group": "Translate",
+            "pages": [
+              "translating",
+              "conflicts",
+              "reviews",
+              "glossary"
+            ]
+          },
+          {
+            "group": "Manage",
+            "pages": [
+              "roles",
+              "visibility",
+              "statistics"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API reference",
+        "groups": [
+          {
+            "group": "Get started",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "Repositories",
+            "pages": [
+              "api-reference/repositories/list",
+              "api-reference/repositories/get",
+              "api-reference/repositories/languages"
+            ],
+            "tag": "Preview"
+          }
+        ]
+      }
+    ]
+  },
+  "api": {
+    "openapi": "https://api.gitlocalize.com/openapi.yaml",
+    "playground": {
+      "display": "interactive"
+    },
+    "examples": {
+      "languages": [
+        "curl",
+        "javascript",
+        "python"
+      ]
+    }
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Contact us",
+        "href": "https://gitlocalize.com/inquiries/new"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "GitLocalize",
+      "href": "https://gitlocalize.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/gitlocalize",
+      "github": "https://github.com/gitlocalize",
+      "website": "https://gitlocalize.com"
+    },
+    "links": [
+      {
+        "header": "Product",
+        "items": [
+          {
+            "label": "Enterprise",
+            "href": "https://gitlocalize.com/inquiries/new"
+          },
+          {
+            "label": "Blog",
+            "href": "https://blog.gitlocalize.com"
+          }
+        ]
+      },
+      {
+        "header": "Support",
+        "items": [
+          {
+            "label": "Contact us",
+            "href": "https://gitlocalize.com/inquiries/new"
+          },
+          {
+            "label": "Discussions",
+            "href": "https://github.com/orgs/gitlocalize/discussions"
+          }
+        ]
+      }
+    ]
+  },
+  "redirects": [
+    {
+      "source": "/about.html",
+      "destination": "/how-it-works"
+    },
+    {
+      "source": "/about",
+      "destination": "/how-it-works"
+    },
+    {
+      "source": "/getting_started.html",
+      "destination": "/quickstart"
+    },
+    {
+      "source": "/getting_started",
+      "destination": "/quickstart"
+    },
+    {
+      "source": "/file_formats.html",
+      "destination": "/file-formats"
+    },
+    {
+      "source": "/file_formats",
+      "destination": "/file-formats"
+    },
+    {
+      "source": "/project_paths.html",
+      "destination": "/paths"
+    },
+    {
+      "source": "/project_paths",
+      "destination": "/paths"
+    },
+    {
+      "source": "/custom_language_codes.html",
+      "destination": "/paths#custom-language-codes"
+    },
+    {
+      "source": "/custom_language_codes",
+      "destination": "/paths#custom-language-codes"
+    },
+    {
+      "source": "/private_repo.html",
+      "destination": "/repositories"
+    },
+    {
+      "source": "/private_repo",
+      "destination": "/repositories"
+    },
+    {
+      "source": "/project_takes_forever_to_sync.html",
+      "destination": "/syncing"
+    },
+    {
+      "source": "/project_takes_forever_to_sync",
+      "destination": "/syncing"
+    },
+    {
+      "source": "/how_to_contribute.html",
+      "destination": "/translating"
+    },
+    {
+      "source": "/how_to_contribute",
+      "destination": "/translating"
+    },
+    {
+      "source": "/understanding_conflicts.html",
+      "destination": "/conflicts"
+    },
+    {
+      "source": "/understanding_conflicts",
+      "destination": "/conflicts"
+    },
+    {
+      "source": "/translations_on_github.html",
+      "destination": "/reviews"
+    },
+    {
+      "source": "/translations_on_github",
+      "destination": "/reviews"
+    },
+    {
+      "source": "/glossaries.html",
+      "destination": "/glossary"
+    },
+    {
+      "source": "/glossaries",
+      "destination": "/glossary"
+    },
+    {
+      "source": "/understanding_roles.html",
+      "destination": "/roles"
+    },
+    {
+      "source": "/understanding_roles",
+      "destination": "/roles"
+    },
+    {
+      "source": "/notifications.html",
+      "destination": "/roles#notifications"
+    },
+    {
+      "source": "/notifications",
+      "destination": "/roles#notifications"
+    },
+    {
+      "source": "/private_project_visibility.html",
+      "destination": "/visibility"
+    },
+    {
+      "source": "/private_project_visibility",
+      "destination": "/visibility"
+    },
+    {
+      "source": "/project_statistics.html",
+      "destination": "/statistics"
+    },
+    {
+      "source": "/project_statistics",
+      "destination": "/statistics"
+    }
+  ],
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude"
+    ]
+  }
+}
