@@ -11,8 +11,7 @@
   "favicon": "/favicon.ico",
   "logo": {
     "light": "/images/logo.png",
-    "dark": "/images/logo-dark.png",
-    "href": "https://gitlocalize.com"
+    "dark": "/images/logo-dark.png"
   },
   "navigation": {
     "tabs": [
