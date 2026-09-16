@@ -30,7 +30,7 @@
           {
             "group": "Set up",
             "pages": [
-              "connect-repository",
+              "repositories",
               "paths",
               "file-formats",
               "syncing"
@@ -183,11 +183,11 @@
     },
     {
       "source": "/private_repo.html",
-      "destination": "/connect-repository"
+      "destination": "/repositories"
     },
     {
       "source": "/private_repo",
-      "destination": "/connect-repository"
+      "destination": "/repositories"
     },
     {
       "source": "/project_takes_forever_to_sync.html",
