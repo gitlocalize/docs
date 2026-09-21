@@ -64,13 +64,18 @@
             ]
           },
           {
-            "group": "Repositories",
+            "group": "Endpoints",
             "pages": [
-              "api-reference/repositories/list",
-              "api-reference/repositories/get",
-              "api-reference/repositories/languages"
-            ],
-            "tag": "Preview"
+              {
+                "group": "Repositories",
+                "pages": [
+                  "api-reference/repositories/list",
+                  "api-reference/repositories/get",
+                  "api-reference/repositories/languages"
+                ],
+                "tag": "Preview"
+              }
+            ]
           }
         ]
       }
