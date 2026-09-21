@@ -264,6 +264,11 @@
       "destination": "/statistics"
     }
   ],
+  "integrations": {
+    "ga4": {
+      "measurementId": "G-MDLZG1VQ95"
+    }
+  },
   "contextual": {
     "options": [
       "copy",
